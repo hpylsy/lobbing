@@ -172,14 +172,20 @@ void RMSerialDriver::receiveData()
           //record_controller_pub_->publish(record_controller);
 
           geometry_msgs::msg::TransformStamped t;
+          geometry_msgs::msg::TransformStamped gimbal_transform;
           timestamp_offset_ = this->get_parameter("timestamp_offset").as_double();
           t.header.stamp = this->now() - rclcpp::Duration::from_seconds(timestamp_offset_);
           t.header.frame_id = "odom";
           t.child_frame_id = "gimbal_link";
-          tf2::Quaternion q;
+          gimbal_transform.header = t.header;
+          gimbal_transform.child_frame_id = "gimbal_yaw";
+          tf2::Quaternion q, gimbal_q;
           q.setRPY(packet.roll, packet.pitch, packet.yaw);
+          gimbal_q.setRPY(0, 0, packet.yaw);
           t.transform.rotation = tf2::toMsg(q);
           tf_broadcaster_->sendTransform(t);
+          gimbal_transform.transform.rotation = tf2::toMsg(gimbal_q);
+          tf_broadcaster_->sendTransform(gimbal_transform);
 
           // publish time
           auto_aim_interfaces::msg::TimeInfo aim_time_info;

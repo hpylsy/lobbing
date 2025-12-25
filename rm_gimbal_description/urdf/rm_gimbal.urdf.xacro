@@ -6,7 +6,7 @@
   <xacro:arg name="xyz" default="0.10 0 0.05" />
   <xacro:arg name="rpy" default="0 0 0" />
 
-  <xacro:arg name="lidar_xyz" default="0.0 -0.12 0.11" />
+  <xacro:arg name="lidar_xyz" default="0.0 -0.12 -0.11" />
   <xacro:arg name="lidar_rpy" default="0 0 0" />
 
   <link name="odom" />
@@ -20,7 +20,7 @@
     <child link="gimbal_link" />
   </joint>
 
-  <joint name="gimbal_yaw_joint" type="fixed">
+  <joint name="gimbal_yaw_joint" type="floating">
     <parent link="odom" />
     <child link="gimbal_yaw" />
   </joint>

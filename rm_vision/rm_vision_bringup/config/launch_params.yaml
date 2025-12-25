@@ -4,6 +4,10 @@ odom2camera:
   xyz: "\"0.10 0.0  0.05\""
   rpy: "\"0.0  0.0  0.0\""
 
+mid360:
+  lidar_xyz: "\"0.0 -0.12 -0.11\""
+  lidar_rpy: "\"0 0 0\""
+
 armor_detector_log_level: INFO
 armor_tracker_log_level: INFO
 planner_log_level: INFO

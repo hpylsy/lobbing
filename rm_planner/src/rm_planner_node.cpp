@@ -84,7 +84,7 @@ RMPlannerNode::RMPlannerNode(const rclcpp::NodeOptions &options)
 void RMPlannerNode::taskCallback(const std_msgs::msg::String::SharedPtr task_msg)
 {
   is_base_task_ = (task_msg->data == "base");
-  RCLCPP_INFO(this->get_logger(), "Task: %s", task_msg->data.c_str());
+  // RCLCPP_INFO(this->get_logger(), "Task: %s", task_msg->data.c_str());
 }
 
 void RMPlannerNode::baseTargetCallback(const auto_aim_interfaces::msg::Target::SharedPtr base_target_ptr)
@@ -106,7 +106,7 @@ void RMPlannerNode::baseTargetCallback(const auto_aim_interfaces::msg::Target::S
       base_target_ptr->header.stamp = transform.header.stamp;
       base_target_ptr->header.frame_id = target_frame_;
       ps.header = base_target_ptr->header;
-
+      RCLCPP_INFO(this->get_logger(), "Base target header: %s", ps.header.frame_id.c_str());
     }
     catch (const tf2::TransformException &ex)
     {
