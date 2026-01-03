@@ -104,9 +104,9 @@ void RMPlannerNode::baseTargetCallback(const auto_aim_interfaces::msg::Target::S
     {
       auto transform = tf2_buffer_->lookupTransform(target_frame_, "gimbal_link", tf2::TimePointZero);
       base_target_ptr->header.stamp = transform.header.stamp;
-      base_target_ptr->header.frame_id = target_frame_;
       ps.header = base_target_ptr->header;
-      RCLCPP_INFO(this->get_logger(), "Base target header: %s", ps.header.frame_id.c_str());
+      base_target_ptr->header.frame_id = target_frame_;
+      // RCLCPP_INFO(this->get_logger(), "Base target header: %s", ps.header.frame_id.c_str());
     }
     catch (const tf2::TransformException &ex)
     {

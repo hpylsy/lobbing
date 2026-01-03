@@ -48,6 +48,7 @@
     <origin xyz="$(arg lidar_xyz)" rpy="$(arg lidar_rpy)" />
     <parent link="gimbal_yaw" />
     <child link="front_mid360" />
+    <axis xyz="0 0 0" />
   </joint>
 
 </robot>
