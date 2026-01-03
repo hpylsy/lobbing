@@ -117,7 +117,11 @@ void RMPlannerNode::baseTargetCallback(const auto_aim_interfaces::msg::Target::S
     {
       base_target_ptr->position = tf2_buffer_->transform(ps, target_frame_).pose.position;
       auto orientation = tf2_buffer_->transform(ps, target_frame_).pose.orientation;
-      base_target_ptr->yaw = orientation.z;
+      tf2::Quaternion quternion(orientation.x, orientation.y, orientation.z, orientation.w);
+      tf2::Matrix3x3 mat(quternion);
+      double roll, pitch, yaw;
+      mat.getRPY(roll, pitch, yaw);
+      base_target_ptr->yaw = yaw;
     }
     catch(const tf2::TransformException &ex)
     {
