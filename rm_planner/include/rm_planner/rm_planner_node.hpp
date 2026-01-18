@@ -80,10 +80,12 @@ private:
   std::shared_ptr<tf2_ros::Buffer> tf2_buffer_;
   std::shared_ptr<tf2_ros::TransformListener> tf2_listener_;
   message_filters::Subscriber<auto_aim_interfaces::msg::Target> target_sub_;
+  message_filters::Subscriber<auto_aim_interfaces::msg::Target> base_target_sub_;
   std::shared_ptr<tf2_filter> tf2_filter_;
+  std::shared_ptr<tf2_filter> base_tf2_filter_;
   auto_aim_interfaces::msg::Target armor_target_;
 
-  rclcpp::Subscription<auto_aim_interfaces::msg::Target>::SharedPtr base_target_sub_;
+  // rclcpp::Subscription<auto_aim_interfaces::msg::Target>::SharedPtr base_target_sub_;
 
   rclcpp::Publisher<auto_aim_interfaces::msg::GimbalCmd>::SharedPtr gimbal_pub_;
   rclcpp::TimerBase::SharedPtr pub_timer_;
