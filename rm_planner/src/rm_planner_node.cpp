@@ -107,6 +107,7 @@ void RMPlannerNode::baseTargetCallback(const auto_aim_interfaces::msg::Target::S
       init_planner();
     }
     geometry_msgs::msg::PoseStamped ps;
+    ps.header = base_target_ptr->header;
     ps.pose.position = base_target_ptr->position;
     tf2::Quaternion q;
     q.setRPY(0, 0, base_target_ptr->yaw);
@@ -133,6 +134,7 @@ void RMPlannerNode::baseTargetCallback(const auto_aim_interfaces::msg::Target::S
       double roll, pitch, yaw;
       mat.getRPY(roll, pitch, yaw);
       base_target_ptr->yaw = yaw;
+      base_target_ptr->header.frame_id = target_frame_;
     }
     catch(const tf2::TransformException &ex)
     {
