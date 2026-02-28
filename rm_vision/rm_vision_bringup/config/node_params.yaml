@@ -63,13 +63,14 @@
       tracking_thres: 5
       lost_time_thres: 0.5
 
-/planner:
+/rm_planner:
   ros__parameters:
     debug: true
+    simulation: true
     prediction_delay: 0.01
     compensator_type: ideal
     iteration_times: 20
-    bullet_speed: 20
+    bullet_speed: 16.5
     gravity: 9.8
     resistance: 0.001
     fire_thresh: 0.003

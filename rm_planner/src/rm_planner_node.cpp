@@ -30,7 +30,7 @@ RMPlannerNode::RMPlannerNode(const rclcpp::NodeOptions &options)
 
   debug_mode_ = this->declare_parameter("debug", true);
   // enable_ = this->declare_parameter("planner_enable",true);
-
+  sim_mode_ = this->declare_parameter("simulation", false);
 
   // Subscriber with tf2 message_filter
   // tf2 relevant
@@ -56,22 +56,26 @@ RMPlannerNode::RMPlannerNode(const rclcpp::NodeOptions &options)
   tf2_filter_->registerCallback(&RMPlannerNode::targetCallback, this);
 
   // Base Armor Subscriber
-  // base_target_sub_ = this->create_subscription<auto_aim_interfaces::msg::Target>(
-  //   "/building_transform/target",
-  //   10,
-  //   std::bind(&RMPlannerNode::baseTargetCallback, this, std::placeholders::_1));
-  base_target_sub_.subscribe(this, "/building_transform/target", rmw_qos_profile_sensor_data);
-  base_tf2_filter_ = std::make_shared<tf2_filter>(base_target_sub_,
-                                             *tf2_buffer_,
-                                             target_frame_,
-                                             10,
-                                             this->get_node_logging_interface(),
-                                             this->get_node_clock_interface(),
-                                             std::chrono::duration<int>(1));
+  if (sim_mode_)
+  {
+    base_target_sub_sim_ = this->create_subscription<auto_aim_interfaces::msg::Target>(
+      "/building_transform/target",
+      10,
+      std::bind(&RMPlannerNode::baseTargetCallback, this, std::placeholders::_1));
+  } else {
+    base_target_sub_.subscribe(this, "/building_transform/target", rmw_qos_profile_sensor_data);
+    base_tf2_filter_ = std::make_shared<tf2_filter>(base_target_sub_,
+                                              *tf2_buffer_,
+                                              target_frame_,
+                                              10,
+                                              this->get_node_logging_interface(),
+                                              this->get_node_clock_interface(),
+                                              std::chrono::duration<int>(1));
   // Register a callback with tf2_ros::MessageFilter to be called when
   // transforms are available
   base_tf2_filter_->registerCallback(&RMPlannerNode::baseTargetCallback, this);
-  
+  }
+
   // Task Subscriber
   task_sub_ = this->create_subscription<std_msgs::msg::String>(
     "/task_mode", 10,
@@ -112,19 +116,22 @@ void RMPlannerNode::baseTargetCallback(const auto_aim_interfaces::msg::Target::S
     tf2::Quaternion q;
     q.setRPY(0, 0, base_target_ptr->yaw);
     ps.pose.orientation = tf2::toMsg(q);
-    // try
-    // {
-    //   auto transform = tf2_buffer_->lookupTransform(target_frame_, "gimbal_link", tf2::TimePointZero);
-    //   base_target_ptr->header.stamp = transform.header.stamp;
-    //   ps.header = base_target_ptr->header;
-    //   base_target_ptr->header.frame_id = target_frame_;
-    //   // RCLCPP_INFO(this->get_logger(), "Base target header: %s", ps.header.frame_id.c_str());
-    // }
-    // catch (const tf2::TransformException &ex)
-    // {
-    //   RCLCPP_ERROR(this->get_logger(), "Failed to get header: %s", ex.what());
-    //   return;
-    // }
+    if (sim_mode_) {
+      try
+      {
+        auto transform = tf2_buffer_->lookupTransform(target_frame_, "gimbal_link", tf2::TimePointZero);
+        transform.header.stamp.sec -= 0.005;
+        base_target_ptr->header.stamp = transform.header.stamp;
+        ps.header = base_target_ptr->header;
+        // base_target_ptr->header.frame_id = target_frame_;
+        // RCLCPP_INFO(this->get_logger(), "Base target header: %s", ps.header.frame_id.c_str());
+      }
+      catch (const tf2::TransformException &ex)
+      {
+        RCLCPP_ERROR(this->get_logger(), "Failed to get header: %s", ex.what());
+        return;
+      }
+    }
     try
     {
       base_target_ptr->position = tf2_buffer_->transform(ps, target_frame_).pose.position;
