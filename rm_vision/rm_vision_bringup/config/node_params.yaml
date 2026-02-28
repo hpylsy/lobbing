@@ -66,7 +66,7 @@
 /rm_planner:
   ros__parameters:
     debug: true
-    simulation: true
+    simulation: false
     prediction_delay: 0.01
     compensator_type: ideal
     iteration_times: 20
