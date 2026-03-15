@@ -1,0 +1,1 @@
+/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/auto_aim_interfaces/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h

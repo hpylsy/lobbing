@@ -1,0 +1,1 @@
+/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/building_transform_interface/rosidl_typesupport_fastrtps_c/building_transform_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

@@ -1,0 +1,432 @@
+[0.022s] Invoking command in '/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hpy/pioneer/hero/all/src/rm_vision_hero/src/auto_aim_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces
+[0.085s] -- The C compiler identification is GNU 11.4.0
+[0.138s] -- The CXX compiler identification is GNU 11.4.0
+[0.144s] -- Detecting C compiler ABI info
+[0.208s] -- Detecting C compiler ABI info - done
+[0.215s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.215s] -- Detecting C compile features
+[0.216s] -- Detecting C compile features - done
+[0.218s] -- Detecting CXX compiler ABI info
+[0.291s] -- Detecting CXX compiler ABI info - done
+[0.296s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.296s] -- Detecting CXX compile features
+[0.296s] -- Detecting CXX compile features - done
+[0.298s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.425s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.502s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.521s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.523s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.527s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.581s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.914s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.676s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.712s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.713s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.770s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.771s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.771s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.771s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.805s] -- Found PythonExtra: .so  
+[1.928s] -- Configuring done
+[2.016s] -- Generating done
+[2.046s] -- Build files have been written to: /home/hpy/pioneer/hero/all/src/rm_vision_hero/build/auto_aim_interfaces
+[2.062s] Invoked command in '/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hpy/pioneer/hero/all/src/rm_vision_hero/src/auto_aim_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces
+[2.065s] Invoking command in '/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hpy/pioneer/hero/all/src/rm_vision_hero/build/auto_aim_interfaces -- -j16 -l16
+[2.132s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.183s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.187s] [  1%] Built target ament_cmake_python_symlink_auto_aim_interfaces
+[2.524s] running egg_info
+[2.527s] creating auto_aim_interfaces.egg-info
+[2.527s] writing auto_aim_interfaces.egg-info/PKG-INFO
+[2.527s] writing dependency_links to auto_aim_interfaces.egg-info/dependency_links.txt
+[2.527s] writing top-level names to auto_aim_interfaces.egg-info/top_level.txt
+[2.528s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[2.530s] reading manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[2.532s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[2.588s] [  1%] Built target ament_cmake_python_build_auto_aim_interfaces_egg
+[3.573s] [  2%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armor__functions.c.o[0m
+[3.573s] [  3%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/target__functions.c.o[0m
+[3.573s] [  4%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_light__functions.c.o[0m
+[3.586s] [  6%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_lights__functions.c.o[0m
+[3.587s] [  6%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armors__functions.c.o[0m
+[3.594s] [  7%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armors__functions.c.o[0m
+[3.599s] [  8%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armor__functions.c.o[0m
+[3.599s] [  9%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/tracker_info__functions.c.o[0m
+[3.600s] [ 10%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/time_info__functions.c.o[0m
+[3.606s] [ 11%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/gimbal_cmd__functions.c.o[0m
+[3.816s] [ 12%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_generator_c.so[0m
+[3.849s] [ 12%] Built target auto_aim_interfaces__cpp
+[3.886s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.887s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.889s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.966s] [ 15%] Built target auto_aim_interfaces__rosidl_generator_c
+[4.009s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.014s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.028s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.931s] [ 19%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armors__type_support.cpp.o[0m
+[4.933s] [ 20%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armor__type_support.cpp.o[0m
+[4.944s] [ 21%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/target__type_support.cpp.o[0m
+[4.955s] [ 22%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_light__type_support.cpp.o[0m
+[4.968s] [ 23%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[4.980s] [ 24%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o[0m
+[4.980s] [ 25%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o[0m
+[4.987s] [ 25%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/time_info__type_support.cpp.o[0m
+[4.988s] [ 26%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/tracker_info__type_support.cpp.o[0m
+[4.994s] [ 27%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/gimbal_cmd__type_support.cpp.o[0m
+[5.011s] [ 28%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armor__type_support.cpp.o[0m
+[5.017s] [ 29%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armors__type_support.cpp.o[0m
+[5.031s] [ 30%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp.o[0m
+[5.045s] [ 32%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/target__type_support.cpp.o[0m
+[5.045s] [ 32%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armors__type_support.cpp.o[0m
+[5.063s] [ 33%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_light__type_support.cpp.o[0m
+[5.068s] [ 33%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[5.069s] [ 34%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_light__type_support.cpp.o[0m
+[5.077s] [ 35%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_lights__type_support.cpp.o[0m
+[5.087s] [ 36%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armor__type_support.cpp.o[0m
+[5.087s] [ 37%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[5.091s] [ 38%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_c.so[0m
+[5.129s] [ 39%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armors__type_support.cpp.o[0m
+[5.246s] [ 39%] Built target auto_aim_interfaces__rosidl_typesupport_c
+[5.313s] [ 40%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o[0m
+[5.510s] [ 41%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armor__type_support.cpp.o[0m
+[5.679s] [ 42%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armors__type_support.cpp.o[0m
+[5.684s] [ 43%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/tracker_info__type_support.cpp.o[0m
+[5.691s] [ 44%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armors__type_support_c.cpp.o[0m
+[5.700s] [ 45%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armor__type_support_c.cpp.o[0m
+[5.793s] [ 46%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armor__type_support.c.o[0m
+[5.859s] [ 47%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/time_info__type_support.cpp.o[0m
+[5.864s] [ 48%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/target__type_support.cpp.o[0m
+[5.888s] [ 49%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armors__type_support.c.o[0m
+[5.977s] [ 50%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/target__type_support_c.cpp.o[0m
+[5.988s] [ 51%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/target__type_support.c.o[0m
+[6.009s] [ 52%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_light__type_support.c.o[0m
+[6.021s] [ 53%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o[0m
+[6.051s] [ 54%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/tracker_info__type_support.cpp.o[0m
+[6.083s] [ 55%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_light__type_support.cpp.o[0m
+[6.092s] [ 56%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/time_info__type_support.cpp.o[0m
+[6.110s] [ 57%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_lights__type_support.c.o[0m
+[6.189s] [ 58%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_light__type_support_c.cpp.o[0m
+[6.219s] [ 59%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armor__type_support.c.o[0m
+[6.297s] [ 60%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_lights__type_support_c.cpp.o[0m
+[6.300s] [ 61%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_lights__type_support.cpp.o[0m
+[6.321s] [ 62%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armors__type_support.c.o[0m
+[6.328s] [ 63%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/gimbal_cmd__type_support.cpp.o[0m
+[6.376s] [ 64%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/tracker_info__type_support.c.o[0m
+[6.384s] [ 65%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/time_info__type_support.c.o[0m
+[6.386s] [ 66%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/gimbal_cmd__type_support.c.o[0m
+[6.414s] [ 67%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armor__type_support_c.cpp.o[0m
+[6.433s] [ 68%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armor__type_support.cpp.o[0m
+[6.472s] [ 69%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/gimbal_cmd__type_support.cpp.o[0m
+[6.488s] [ 70%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armors__type_support.cpp.o[0m
+[6.493s] [ 71%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.596s] [ 72%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/tracker_info__type_support.cpp.o[0m
+[6.603s] [ 72%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c
+[6.617s] [ 73%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armors__type_support_c.cpp.o[0m
+[6.619s] [ 74%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/time_info__type_support.cpp.o[0m
+[6.625s] [ 75%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/tracker_info__type_support_c.cpp.o[0m
+[6.664s] [ 76%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/gimbal_cmd__type_support.cpp.o[0m
+[6.679s] [ 77%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/time_info__type_support_c.cpp.o[0m
+[6.832s] [ 78%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/gimbal_cmd__type_support_c.cpp.o[0m
+[7.013s] [ 79%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_cpp.so[0m
+[7.115s] [ 79%] Built target auto_aim_interfaces__rosidl_typesupport_cpp
+[7.278s] [ 80%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.423s] [ 80%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.434s] [ 81%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.501s] [ 82%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.516s] [ 82%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c
+[7.588s] [ 82%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_cpp
+[7.618s] [ 82%] Built target auto_aim_interfaces
+[7.651s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.522s] [ 83%] Built target auto_aim_interfaces__py
+[8.546s] [ 84%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armors_s.c.o[0m
+[8.546s] [ 85%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_light_s.c.o[0m
+[8.546s] [ 86%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_lights_s.c.o[0m
+[8.546s] [ 87%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armor_s.c.o[0m
+[8.546s] [ 88%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_target_s.c.o[0m
+[8.546s] [ 89%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armor_s.c.o[0m
+[8.547s] [ 92%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_tracker_info_s.c.o[0m
+[8.548s] [ 93%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_gimbal_cmd_s.c.o[0m
+[8.548s] [ 93%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armors_s.c.o[0m
+[8.549s] [ 93%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_time_info_s.c.o[0m
+[8.681s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so[0m
+[8.726s] [ 94%] Built target auto_aim_interfaces__rosidl_generator_py
+[8.750s] [ 95%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[8.752s] [ 96%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.752s] [ 97%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.852s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.900s] [ 98%] Built target auto_aim_interfaces__rosidl_typesupport_c__pyext
+[8.906s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.913s] [100%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.949s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[8.957s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext
+[8.969s] Invoked command in '/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hpy/pioneer/hero/all/src/rm_vision_hero/build/auto_aim_interfaces -- -j16 -l16
+[8.970s] Invoking command in '/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hpy/pioneer/hero/all/src/rm_vision_hero/build/auto_aim_interfaces
+[8.979s] -- Install configuration: ""
+[8.979s] -- Execute custom install script
+[8.980s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/ament_index/resource_index/rosidl_interfaces/auto_aim_interfaces
+[8.988s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.h
+[8.996s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.h
+[9.006s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.h
+[9.017s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.h
+[9.026s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.h
+[9.036s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.h
+[9.044s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__functions.h
+[9.055s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.h
+[9.066s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.h
+[9.074s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__functions.h
+[9.085s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.h
+[9.096s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.h
+[9.105s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__functions.h
+[9.115s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.h
+[9.126s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.h
+[9.136s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__functions.h
+[9.145s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.h
+[9.155s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.h
+[9.166s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__functions.h
+[9.177s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.h
+[9.188s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.h
+[9.199s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__functions.h
+[9.208s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.h
+[9.218s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.h
+[9.229s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__functions.h
+[9.239s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__struct.h
+[9.249s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__type_support.h
+[9.260s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__functions.h
+[9.271s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.h
+[9.281s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.h
+[9.290s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__functions.h
+[9.300s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__struct.h
+[9.308s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__type_support.h
+[9.316s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__functions.h
+[9.324s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.h
+[9.334s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.h
+[9.341s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/gimbal_cmd.h
+[9.348s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.356s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.h
+[9.367s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/time_info.h
+[9.377s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.h
+[9.388s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.sh
+[9.396s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.dsv
+[9.404s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h
+[9.414s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h
+[9.424s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_c.h
+[9.433s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_c.h
+[9.443s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_c.h
+[9.451s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_c.h
+[9.461s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_c.h
+[9.470s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[9.482s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__rosidl_typesupport_fastrtps_c.h
+[9.489s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_c.h
+[9.496s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.507s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h
+[9.516s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h
+[9.523s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_c.h
+[9.533s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_c.h
+[9.540s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_c.h
+[9.548s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_c.h
+[9.558s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_c.h
+[9.566s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h
+[9.577s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__rosidl_typesupport_introspection_c.h
+[9.585s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_c.h
+[9.592s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.601s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.hpp
+[9.613s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.hpp
+[9.622s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.hpp
+[9.631s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.hpp
+[9.640s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.hpp
+[9.648s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.hpp
+[9.658s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__builder.hpp
+[9.666s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.hpp
+[9.676s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__traits.hpp
+[9.686s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.hpp
+[9.694s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__builder.hpp
+[9.705s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.hpp
+[9.713s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__traits.hpp
+[9.724s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.hpp
+[9.731s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__builder.hpp
+[9.741s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.hpp
+[9.751s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__traits.hpp
+[9.761s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.hpp
+[9.769s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__builder.hpp
+[9.776s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.hpp
+[9.785s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__traits.hpp
+[9.794s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.hpp
+[9.801s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__builder.hpp
+[9.808s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.hpp
+[9.817s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__traits.hpp
+[9.827s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.hpp
+[9.835s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__builder.hpp
+[9.844s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.hpp
+[9.853s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__traits.hpp
+[9.860s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.hpp
+[9.870s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__builder.hpp
+[9.879s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__struct.hpp
+[9.888s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__traits.hpp
+[9.896s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__type_support.hpp
+[9.905s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__builder.hpp
+[9.913s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.hpp
+[9.922s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__traits.hpp
+[9.930s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.hpp
+[9.940s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__builder.hpp
+[9.947s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__struct.hpp
+[9.953s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__traits.hpp
+[9.961s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__type_support.hpp
+[9.968s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__builder.hpp
+[9.977s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.hpp
+[9.986s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__traits.hpp
+[9.995s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.hpp
+[10.005s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/gimbal_cmd.hpp
+[10.011s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.019s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.hpp
+[10.026s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/time_info.hpp
+[10.036s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.hpp
+[10.044s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp
+[10.051s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp
+[10.057s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_cpp.hpp
+[10.065s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_cpp.hpp
+[10.075s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_cpp.hpp
+[10.083s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_cpp.hpp
+[10.094s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[10.102s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[10.113s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__rosidl_typesupport_fastrtps_cpp.hpp
+[10.125s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_cpp.hpp
+[10.136s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.147s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp
+[10.158s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp
+[10.167s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_cpp.hpp
+[10.178s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_cpp.hpp
+[10.189s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_cpp.hpp
+[10.200s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_cpp.hpp
+[10.210s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_cpp.hpp
+[10.221s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[10.230s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__rosidl_typesupport_introspection_cpp.hpp
+[10.240s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_cpp.hpp
+[10.251s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.sh
+[10.260s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.dsv
+[10.269s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[10.280s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.290s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.302s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[10.311s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py
+[10.321s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c
+[10.333s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.344s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[10.354s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.362s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.372s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.384s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so
+[10.395s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py
+[10.406s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor.py
+[10.416s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor_s.c
+[10.425s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors.py
+[10.436s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors_s.c
+[10.447s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor.py
+[10.456s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor_s.c
+[10.465s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors.py
+[10.474s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors_s.c
+[10.483s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py
+[10.490s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light_s.c
+[10.498s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py
+[10.506s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights_s.c
+[10.517s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_gimbal_cmd.py
+[10.526s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_gimbal_cmd_s.c
+[10.535s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target.py
+[10.543s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target_s.c
+[10.551s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_time_info.py
+[10.560s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_time_info_s.c
+[10.566s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info.py
+[10.576s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info_s.c
+[10.582s] -- Up-to-date symlink: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.582s] -- Up-to-date symlink: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.582s] -- Up-to-date symlink: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.582s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.idl
+[10.590s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.idl
+[10.597s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.idl
+[10.606s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.idl
+[10.613s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.idl
+[10.621s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.idl
+[10.629s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.idl
+[10.637s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.idl
+[10.644s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TimeInfo.idl
+[10.654s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/GimbalCmd.idl
+[10.660s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.msg
+[10.670s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.msg
+[10.677s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.msg
+[10.686s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.msg
+[10.692s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.msg
+[10.702s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.msg
+[10.709s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.msg
+[10.719s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.msg
+[10.727s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TimeInfo.msg
+[10.737s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/GimbalCmd.msg
+[10.745s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/ament_index/resource_index/package_run_dependencies/auto_aim_interfaces
+[10.754s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/ament_index/resource_index/parent_prefix_path/auto_aim_interfaces
+[10.764s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.sh
+[10.771s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.dsv
+[10.782s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.sh
+[10.792s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.dsv
+[10.801s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.bash
+[10.810s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.sh
+[10.818s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.zsh
+[10.827s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.dsv
+[10.835s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv
+[10.844s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/ament_index/resource_index/packages/auto_aim_interfaces
+[10.853s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake-extras.cmake
+[10.862s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.871s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.879s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[10.890s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[10.900s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.910s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.920s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig.cmake
+[10.929s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig-version.cmake
+[10.938s] -- Symlinking: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/package.xml
+[10.945s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so
+[10.945s] -- Set runtime path of "/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so" to ""
+[10.946s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.946s] -- Set runtime path of "/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[10.946s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so
+[10.946s] -- Set runtime path of "/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[10.946s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so
+[10.947s] -- Set runtime path of "/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so" to ""
+[10.947s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.947s] -- Set runtime path of "/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.948s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.948s] -- Set runtime path of "/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[10.948s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so
+[10.949s] -- Set runtime path of "/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so" to ""
+[10.987s] Listing '/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces'...
+[10.987s] Compiling '/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py'...
+[10.987s] Listing '/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg'...
+[10.987s] Compiling '/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py'...
+[10.987s] Compiling '/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor.py'...
+[10.988s] Compiling '/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors.py'...
+[10.988s] Compiling '/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor.py'...
+[10.988s] Compiling '/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors.py'...
+[10.988s] Compiling '/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py'...
+[10.988s] Compiling '/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py'...
+[10.988s] Compiling '/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_gimbal_cmd.py'...
+[10.988s] Compiling '/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target.py'...
+[10.988s] Compiling '/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_time_info.py'...
+[10.988s] Compiling '/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info.py'...
+[10.991s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so
+[10.991s] -- Set runtime path of "/home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so" to ""
+[10.991s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport.cmake
+[10.991s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport-noconfig.cmake
+[10.991s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[10.991s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.991s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[10.991s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.992s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport.cmake
+[10.992s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[10.992s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cppExport.cmake
+[10.992s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.992s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.992s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[10.992s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.992s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport.cmake
+[10.992s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[10.992s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport.cmake
+[10.992s] -- Installing: /home/hpy/pioneer/hero/all/src/rm_vision_hero/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport-noconfig.cmake

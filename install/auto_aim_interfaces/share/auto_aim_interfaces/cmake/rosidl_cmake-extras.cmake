@@ -1,0 +1,1 @@
+/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/auto_aim_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake

@@ -1,0 +1,1 @@
+/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/detail/debug_armors__builder.hpp

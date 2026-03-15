@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/rm_planner/librm_planner.so" "TARGETS" "rm_planner" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

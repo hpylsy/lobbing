@@ -1,0 +1,1 @@
+/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/building_transform_interface/rosidl_generator_cpp/building_transform_interface/msg/detail/base_armor__struct.hpp

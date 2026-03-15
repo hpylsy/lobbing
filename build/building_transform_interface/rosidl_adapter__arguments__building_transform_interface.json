@@ -1,0 +1,7 @@
+{
+  "package_name": "building_transform_interface",
+  "non_idl_tuples": [
+    "/home/hpy/pioneer/hero/all/src/rm_vision_hero/src/building_transform_interface:msg/BaseArmor.msg",
+    "/home/hpy/pioneer/hero/all/src/rm_vision_hero/src/building_transform_interface:msg/TimeInfo.msg"
+  ]
+}

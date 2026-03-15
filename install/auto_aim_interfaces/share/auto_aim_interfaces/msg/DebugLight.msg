@@ -1,0 +1,1 @@
+/home/hpy/pioneer/hero/all/src/rm_vision_hero/src/auto_aim_interfaces/msg/DebugLight.msg

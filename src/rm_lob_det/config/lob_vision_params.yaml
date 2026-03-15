@@ -1,0 +1,68 @@
+lob_vision_node:   # <--- 【核心修改 1】：节点名称统一为融合后的 lob_vision_node
+  ros__parameters:
+    # ====================================
+    # 基础图像处理参数 (光流与二值化)
+    # ====================================
+    binary_threshold: 25
+    morph_kernel_size: 7
+
+    # ====================================
+    # 飞镖追踪 (LobTracker) 轮廓筛选参数
+    # ====================================
+    min_area: 350.0              
+    max_area: 1600.0             
+    min_circularity: 0.4        
+    min_aspect_ratio: 0.5       
+    max_aspect_ratio: 2.5       
+    min_trajectory_length_ratio: 0.2
+    # ====================================
+    # 候选轨迹 (Tracklet) 参数
+    # ====================================
+    tracklet_confirm_age: 2         
+    tracklet_min_down_speed: 9.0    
+
+    # ====================================
+    # 正式轨迹与卡尔曼滤波参数
+    # ====================================
+    max_prediction_error: 550.0      
+    max_lost_frames: 3              
+    max_trajectory_len: 120         
+
+    # ====================================
+    # 轨迹重连 (ReID) 与弯曲突变检测参数
+    # ====================================
+    max_finished_track_age: 10      
+    reid_threshold: 270.0            
+    max_angle_change: 30.0          
+    min_points_for_smooth_check: 3  
+
+    # ====================================
+    # 功能开关 & 视频源参数
+    # ====================================
+    enable_motion_detection: true
+    show_fused_window: true    # 最终的融合效果总窗
+    show_lob_debug: true     # 弹丸追踪的中间过程窗 (光流、差分、掩码等)
+
+    video_source: "video"  # "video" 或 "camera"
+    video_path: "/home/hpy/pioneer/hero/aim/source/8.mp4"
+    video_fps: 150.0
+    enable_source_alarm: true
+
+    # ====================================
+    # 引导灯 (GuideLight) 原版高阶参数
+    # 【核心修改 2】：完美对接你原版算法的 12 个核心参数！
+    # ====================================
+    green:
+      debug: true
+      binaryThreshold: 60       # 原来的 G-R 二值化阈值
+      epsilon: 100              # 多边形逼近参数 (1/epsilon)
+      contoursRatioMin: 50      # 轮廓长宽比下限 (内部会除以100，即0.5)
+      contoursRatioMax: 150     # 轮廓长宽比上限 (即1.5)
+      contoursAreaMin: 100      # 轮廓面积下限
+      contoursAreaMax: 20000    # 轮廓面积上限
+      filledRatioMin: 50        # 真实发光饱满度下限 (50%)
+      filledRatioMax: 100       # 真实发光饱满度上限 (100%)
+      ellipseAreaMin: 100       # 拟合椭圆面积下限
+      ellipseAreaMax: 20000     # 拟合椭圆面积上限
+      ellipseRatioMin: 50       # 椭圆长宽比下限 (0.5)
+      ellipseRatioMax: 150      # 椭圆长宽比上限 (1.5)

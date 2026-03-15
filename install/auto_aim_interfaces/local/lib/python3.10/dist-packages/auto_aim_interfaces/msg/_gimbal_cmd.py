@@ -1,0 +1,1 @@
+/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/auto_aim_interfaces/rosidl_generator_py/auto_aim_interfaces/msg/_gimbal_cmd.py
