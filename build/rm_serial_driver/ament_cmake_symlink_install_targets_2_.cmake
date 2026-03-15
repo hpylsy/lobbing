@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/rm_serial_driver/librm_serial_driver.so" "TARGETS" "rm_serial_driver" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

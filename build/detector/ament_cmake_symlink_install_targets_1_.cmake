@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/detector/liblob_vision_node.so" "TARGETS" "lob_vision_node" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

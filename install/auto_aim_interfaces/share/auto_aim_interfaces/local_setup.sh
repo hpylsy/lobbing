@@ -1,1 +1,0 @@
-/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/auto_aim_interfaces/ament_cmake_environment_hooks/local_setup.sh

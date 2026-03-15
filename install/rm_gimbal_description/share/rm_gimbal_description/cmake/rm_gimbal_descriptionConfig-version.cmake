@@ -1,1 +1,0 @@
-/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/rm_gimbal_description/ament_cmake_core/rm_gimbal_descriptionConfig-version.cmake

@@ -1,9 +1,0 @@
-setup.py
-building_transform_interface/__init__.py
-building_transform_interface.egg-info/PKG-INFO
-building_transform_interface.egg-info/SOURCES.txt
-building_transform_interface.egg-info/dependency_links.txt
-building_transform_interface.egg-info/top_level.txt
-building_transform_interface/msg/__init__.py
-building_transform_interface/msg/_base_armor.py
-building_transform_interface/msg/_time_info.py

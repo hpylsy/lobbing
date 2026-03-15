@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/armor_tracker/libarmor_tracker.so" "TARGETS" "armor_tracker" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

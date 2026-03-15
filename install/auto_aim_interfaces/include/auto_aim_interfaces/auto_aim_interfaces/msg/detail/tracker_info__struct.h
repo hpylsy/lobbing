@@ -1,1 +1,0 @@
-/home/hpy/pioneer/hero/all/src/rm_vision_hero/build/auto_aim_interfaces/rosidl_generator_c/auto_aim_interfaces/msg/detail/tracker_info__struct.h
